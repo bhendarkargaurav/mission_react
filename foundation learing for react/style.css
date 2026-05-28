@@ -1,0 +1,59 @@
+/* Reset */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body */
+body{
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  color: #333;
+}
+
+/* Navbar */
+nav{
+  background: #222;
+  padding: 15px;
+}
+
+nav a{
+  color: white;
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+/* Home Section */
+.home{
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.home h1{
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+
+.home p{
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+/* Button */
+.btn{
+  padding: 10px 20px;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn:hover{
+  background: #0056b3;
+}
