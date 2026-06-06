@@ -1,5 +1,9 @@
 -basic react app
-tailwind css
+-tailwind css 
+  -got tpo tailwind css.com
+  - follow the procesure for the vite projectct 
+  - in vite,config file remove the code with new from doc
+  - ind index.js import tailwind  - @import 'tailwindcss'
 create app component
 download images from thitysixstudio
 make images in an array
