@@ -1,3 +1,5 @@
+
+
 const employees = [
   {
     id: 1,
@@ -6,9 +8,9 @@ const employees = [
     password: "123",
     taskCounts: {
       active: 1,
-      newTask: 1,
+      newTask: 2,
       completed: 1,
-      failed: 1,
+      failed: 0,
     },
     tasks: [
       {
