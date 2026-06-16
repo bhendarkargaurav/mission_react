@@ -53,7 +53,7 @@ const App = () => {
     <>
    // we want as some one login accourding to dashboard should open if employee login employee dashboard open and if admin login admin dashboad open 
     {!user ? < Login handleLogin={handleLogin} />: ''}
-    {user == 'admin' ? <AdminDashboard/> : (user == 'employee' ? <EmployeeDashboard data={loggedInUserData} /> :null)}
+    {user == 'admin' ? <AdminDashboard  changeuser={setUser} /> : (user == 'employee' ? <EmployeeDashboard changeuser={setUser} data={loggedInUserData} /> :null)}
 
     {/* <EmployeeDashboard /> */}
     {/* < AdminDashboard /> */}
